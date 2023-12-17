@@ -102,7 +102,9 @@ function Footer() {
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Neeraj Kumar. All rights reserved.
+          
         </Copyright>
+        <p>Contact Number 9599345196</p>
 
       </FooterWrapper>
     </FooterContainer>
