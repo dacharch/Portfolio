@@ -1,6 +1,6 @@
 import React from 'react' ;
 import { useState } from 'react' ;
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle' ;
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton} from './ProjectsStyle' ;
 import ProjectCard from '../Cards/ProjectCards' ;
 import { projects } from '../../data/constants' ;
 import "./ProjectsStyle";
@@ -15,7 +15,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps.
+          I have worked on a wide range of projects..
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'web app' ?

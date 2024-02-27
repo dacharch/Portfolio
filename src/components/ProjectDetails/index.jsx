@@ -65,7 +65,7 @@ const Desc = styled.div`
     }
 `;
 
-const Image = styled.img`
+const Iframe = styled.iframe`
     width: 100%;
     object-fit: cover;
     border-radius: 12px;
@@ -197,7 +197,7 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    <Iframe width="420" height="345" src={project?.video}/>
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
