@@ -221,6 +221,24 @@ export const Bio = {
       github: "https://github.com/dacharch/Gym-Website",
       webapp: "https://gymwebsite23.netlify.app/",
     },
+    {
+      id: 4,
+      title: "Real Website",
+      date: "Oct 2023 - Oct 2023",
+      description:
+        "It is a simple web page. It is build in React js and Motion JS. ",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-c1e6a.appspot.com/o/image.jpg?alt=media&token=cb6c3cab-192b-4c3a-98c1-10fd8fc80bd3",
+      video:"https://www.youtube.com/embed/-pdz1004PL4",
+      tags: [
+        "React JS",
+        "JSX",
+        "Motion Js",
+      ],
+      category: "web app",
+      github: "https://github.com/dacharch/Real-State",
+      webapp: "https://real-state-web22.netlify.app/",
+    },
   
   ]
   export const TimeLineData = [
